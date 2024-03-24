@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="market.css">
+	<title>market-list</title>
+</head>
+<body>
+	<div class="container"> 
+		<header>
+			<div class="title">
+				<h1>Market-List <span style="color:#F7AE23;">.com</span></h1>
+			</div>
+
+			<div class="form">
+			Item<input type="text" name="items"
+			id="items" placeholder="Enter items here">
+			Amount<input type="number" name="amount" id="amount">
+			<button id="add">Add</button>
+			</div>
+		</header>
+		<div class="tables">
+			<ol id="list">
+			
+			</ol>
+			<div id="calc">
+				<div id="th">
+					<div id="th1">Items bought</div>
+					<div id="th2">Amount</div>
+				</div>
+				<div class="envelope">
+					<ul id="ul1"></ul>
+					<ul id="ul2"></ul>
+				</div>
+			</div>
+		</div>
+		<div class="total">
+			<h2>Total amount spent</h2>
+			<div class="sumed">0</div>
+		</div>
+	</div>
+
+	<script src="market.js"></script>
+</body>
+</html>
